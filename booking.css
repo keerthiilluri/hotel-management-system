@@ -1,0 +1,61 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #2980b9, #6dd5fa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, select {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #219150;
+}
+
+/* Message */
+#message {
+    text-align: center;
+    margin-top: 15px;
+    color: green;
+}
